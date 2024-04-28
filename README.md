@@ -40,7 +40,7 @@ Clone this repository to your local machine:
 Navigate to the project directory:
 
 
-    cd readme-generator
+    cd shapeshifter
 
 
 Install dependencies using npm:
@@ -60,14 +60,19 @@ Follow the prompts to provide information about your project. Once you've comple
 
 ## Visuals
 
-Here is a short video that runs you through the entire process from installation to completion: [click here](https://drive.google.com/file/d/1OIEY6tlkJ8Al5GZfdUwZM3roD7kB2aKZ/view)
+Here is a short video that runs you through the entire process from installation to completion: [click here](https://drive.google.com/file/d/1KDyGqgw4BgHhM-kR6tbMaAppsygJEc5M/view?usp=sharing)
 
 
 
 
-Screenshot of the application with prompts and user answers:
+Logo exmaples
 
-![screenshot of cli](./images/image1.png)
+![alt text](image.png)
+
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
 
 
 ## Contributing
