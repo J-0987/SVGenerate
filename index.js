@@ -2,17 +2,18 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const Svg = require('./lib/svg');
-const Circle = require('./lib/Circle');
-const Triangle = require('./lib/Triangle');
-const Square = require('./lib/Square');
+const Circle = require('./lib/circle');
+const Square = require('./lib/square');
+const Triangle = require('./lib/triangle');
 
-// TODO: Create an array of questions for user input
+
+// Array of questions for user input
 const questions = [
     // Three Characters
     {
         type: "input",
         name: "text",
-        message: "Enter a maximum of two words:",
+        message: "Enter a maximum of three words:",
     },
     // Text Color
     {
@@ -39,12 +40,7 @@ const questions = [
     },
 ];
 
-
-/**
- * Writes data to a file.
- * @param {string} fileName - The name of the file to write to.
- * @param {string} data - The data to write to the file.
- */
+//Write to file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) {
