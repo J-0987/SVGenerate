@@ -72,9 +72,19 @@ Screenshot of the application with prompts and user answers:
 
 ## Contributing
 
-Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
 
-Alternatively, you can reach me by email at jasminelassonde@gmail.com
+Contributions to this application are welcome! 
+
+Follow these steps to contribute:
+
+1. Fork the repository.
+
+2. Create a new branch for your feature or enhancement.
+3. Make your changes and commit them, following best practices for commit messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request with a clear description of your changes.
+
+
 
 
 ## License
@@ -84,5 +94,5 @@ This project is licensed under the MIT License.
 ## Acknowledgements
 
 
-This project was inspired by the need for easy README file generation for various projects.
-Special thanks to the Inquirer module for providing a simple and intuitive CLI interface.
+This project was inspired by the need for easy svg logo generation for various projects.
+Special thanks to the Inquirer module for providing a simple and intuitive CLI interface. Thanks as well to w3 schools for providing the templates for shapes.
